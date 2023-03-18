@@ -1,13 +1,16 @@
 import React from "react";
-import { View , Text } from "react-native";
-
-Resultimc =(props)=>{
-    return(
-        <View>
-            <Text>{props.Resultimc}</Text>
-            <Text>{props.messageResultImc}</Text>
-        </View>
-    )
-
+import { Text, View } from "react-native";
+ 
+function ResultImc(props) {
+  return (
+    <View>
+      <Text>
+        {props.messageResultIMc}
+      </Text>
+      <Text>
+        {props.resultImc}
+      </Text>
+    </View>
+  );
 }
-export default Resultimc;
+export default ResultImc;

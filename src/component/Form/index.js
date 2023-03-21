@@ -15,7 +15,7 @@ function Form() {
     }
 
     function validationImc(){
-        if(weight != null && height !=null){
+        if(weight != null && height != null){
             imcCalculator()
             setHeight(null)
             setWeight(null)
